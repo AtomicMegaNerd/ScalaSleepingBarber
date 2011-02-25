@@ -2,4 +2,5 @@
 BIN=bin
 MAINCLASS=sleepingbarber.BarbershopSimulator
 
-scala $BIN/$MAINCLASS
+scala -cp $BIN $MAINCLASS
+
